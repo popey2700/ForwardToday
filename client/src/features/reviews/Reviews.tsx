@@ -21,7 +21,7 @@ export default function Reviews() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {reviews.map((review, index) => (
-            <FadeUp key={review.id} delayMs={index * 100}>
+            <FadeUp key={review.id} delayMs={index * 100} className="h-full">
               <ReviewCard review={review} />
             </FadeUp>
           ))}

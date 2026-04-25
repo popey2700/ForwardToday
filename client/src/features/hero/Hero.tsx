@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden bg-ft-bg"
+      className="relative overflow-hidden bg-ft-bg"
     >
       {/* Background gradient */}
       <div className="absolute inset-0 z-0" style={heroBg} />
@@ -52,7 +52,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-[1280px] mx-auto px-6 md:px-12 pt-32 pb-20 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
+      <div className="relative z-10 w-full max-w-[1280px] mx-auto px-6 md:px-12 pt-28 pb-20 lg:pt-36 lg:pb-28 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
         {/* Left column */}
         <div>
           <div className="inline-flex items-center gap-2 bg-[oklch(0.52_0.12_210_/_0.12)] border border-[oklch(0.52_0.12_210_/_0.25)] text-ft-teal-dark text-[11px] font-bold tracking-[0.1em] uppercase px-3.5 py-1.5 rounded-full mb-7">

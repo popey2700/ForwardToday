@@ -13,12 +13,12 @@ export function HeroStats() {
         {stats.map((stat, index) => (
           <div
             key={stat.value}
-            className="relative px-6 py-7 text-center"
+            className="relative px-3 sm:px-6 py-5 sm:py-7 text-center"
           >
             {index > 0 && (
               <div className="absolute left-0 top-[20%] bottom-[20%] w-px bg-[oklch(0.7_0.04_215_/_0.3)]" />
             )}
-            <span className="block text-[32px] font-extrabold text-ft-teal-dark tracking-[-0.03em]">
+            <span className="block text-[22px] sm:text-[28px] lg:text-[32px] font-extrabold text-ft-teal-dark tracking-[-0.03em]">
               {stat.value}
             </span>
             <span className="block text-[11px] font-semibold text-ft-text-soft tracking-[0.05em] uppercase mt-1">

@@ -31,7 +31,7 @@ export default function Services() {
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((service, index) => (
-            <FadeUp key={service.id} delayMs={(index % 3) * 100}>
+            <FadeUp key={service.id} delayMs={(index % 3) * 100} className="h-full">
               <ServiceCard service={service} />
             </FadeUp>
           ))}

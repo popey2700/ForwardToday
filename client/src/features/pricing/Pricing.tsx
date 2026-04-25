@@ -36,7 +36,7 @@ export default function Pricing() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-14 md:mt-16">
           {pricingOptions.map((plan, index) => (
-            <FadeUp key={plan.id} delayMs={index * 100}>
+            <FadeUp key={plan.id} delayMs={index * 100} className="h-full">
               <PricingCard plan={plan} />
             </FadeUp>
           ))}

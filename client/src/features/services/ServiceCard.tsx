@@ -10,7 +10,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
   const Icon = service.icon
 
   return (
-    <GlassCard className="p-7 md:p-8 flex flex-col hover:-translate-y-1 transition-transform duration-250">
+    <GlassCard className="h-full p-7 md:p-8 flex flex-col hover:-translate-y-1 transition-transform duration-250">
       <div
         className="w-11 h-11 rounded-xl flex items-center justify-center mb-5 flex-shrink-0 shadow-[0_4px_12px_oklch(0.52_0.12_210_/_0.30)]"
         style={{

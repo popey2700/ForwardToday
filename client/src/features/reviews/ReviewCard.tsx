@@ -7,7 +7,7 @@ interface ReviewCardProps {
 
 export function ReviewCard({ review }: ReviewCardProps) {
   return (
-    <GlassCard className="p-8 flex flex-col hover:-translate-y-0.5 transition-transform duration-250">
+    <GlassCard className="h-full p-8 flex flex-col hover:-translate-y-0.5 transition-transform duration-250">
       <div className="flex gap-0.5 mb-4">
         {Array.from({ length: 5 }).map((_, i) => (
           <span key={i} className="text-[oklch(0.72_0.16_65)] text-[14px]">★</span>
