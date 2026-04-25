@@ -115,3 +115,8 @@
     0%, 100% { transform: translateY(0px) scale(1); }
     50%       { transform: translateY(-24px) scale(1.04); }
 }
+
+@keyframes bookfloat {
+    0%, 100% { transform: translateY(0px) rotate(-1deg); }
+    50%       { transform: translateY(-14px) rotate(1deg); }
+}

@@ -2,6 +2,7 @@ import { Mail, ChevronRight } from 'lucide-react'
 import { BRIGID_EMAIL } from '@/lib/constants'
 import { HeroStats } from './HeroStats'
 import { HeroFeatureCard } from './HeroFeatureCard'
+import { HeroBook } from './HeroBook'
 
 const heroBg = {
   background: `
@@ -103,7 +104,8 @@ export default function Hero() {
         </div>
 
         {/* Right column */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center">
+          <HeroBook />
           <HeroStats />
           <HeroFeatureCard />
         </div>
