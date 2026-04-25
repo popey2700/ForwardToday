@@ -29,7 +29,7 @@ export function PricingCard({ plan }: PricingCardProps) {
       className={cn(
         'h-full rounded-3xl p-10 flex flex-col',
         isFeatured
-          ? 'bg-[oklch(0.52_0.13_195_/_0.08)] border border-[oklch(0.62_0.13_195_/_0.30)] shadow-[0_4px_32px_oklch(0.52_0.13_195_/_0.15),inset_0_1px_0_oklch(1_0_0_/_0.5)] -translate-y-1'
+          ? 'bg-[oklch(0.52_0.13_195_/_0.08)] border border-[oklch(0.62_0.13_195_/_0.30)] shadow-[0_4px_32px_oklch(0.52_0.13_195_/_0.15),inset_0_1px_0_oklch(1_0_0_/_0.5)]'
           : 'bg-ft-glass-bg backdrop-blur-xl border border-ft-glass-border shadow-[0_4px_24px_oklch(0.55_0.07_200_/_0.10),inset_0_1px_0_oklch(1_0_0_/_0.6)]'
       )}
     >
