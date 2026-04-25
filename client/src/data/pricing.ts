@@ -25,7 +25,7 @@ export const pricingOptions: PricingItem[] = [
     description:
       'Small, carefully matched groups that combine peer motivation with focused specialist attention. Great value and great fun.',
     features: [
-      'Maximum 3–4 students per group',
+      'Maximum 2–3 students per group',
       'Matched by level & learning need',
       'Collaborative learning environment',
       'Ideal for SATS & GCSE revision',

@@ -1,3 +1,4 @@
+import brigidPhoto from '@/assets/brigid.jpg'
 import Navigation from '@/features/navigation/Navigation'
 import Hero from '@/features/hero/Hero'
 import Services from '@/features/services/Services'
@@ -14,7 +15,7 @@ export default function App() {
       <main>
         <Hero />
         <Services />
-        <About />
+        <About photoSrc={brigidPhoto} />
         <Pricing />
         <Reviews />
         <Contact />

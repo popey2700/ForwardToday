@@ -37,7 +37,7 @@ export default function About({ photoSrc }: AboutProps) {
                 <img
                   src={photoSrc}
                   alt="Brigid"
-                  className="w-full aspect-[3/4] object-cover rounded-[28px]"
+                  className="w-full rounded-[28px]"
                 />
               ) : (
                 <div
@@ -67,7 +67,7 @@ export default function About({ photoSrc }: AboutProps) {
               )}
 
               {/* DBS badge — hidden on small screens to avoid overflow */}
-              <div className="hidden md:block absolute bottom-7 -right-5 bg-ft-glass-bg backdrop-blur-xl border border-ft-glass-border rounded-2xl px-5 py-4 shadow-[0_8px_32px_oklch(0.55_0.07_200_/_0.10)] min-w-[180px]">
+              <div className="hidden md:block absolute bottom-7 -right-5 bg-white border border-[oklch(0.9_0.02_210)] rounded-2xl px-5 py-4 shadow-[0_8px_32px_oklch(0.55_0.07_200_/_0.10)] min-w-[180px]">
                 <p className="text-[13px] font-bold text-ft-text mb-1 flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-[oklch(0.72_0.10_165)] inline-block" />
                   Enhanced DBS Checked
